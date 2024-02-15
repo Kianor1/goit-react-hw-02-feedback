@@ -1,6 +1,4 @@
-import React from 'react';
-import ReactDOM from 'react-dom'
-import
+import Feedback from './feedback/feedback.jsx';
 
 export const App = () => {
   return (
@@ -13,6 +11,8 @@ export const App = () => {
         fontSize: 40,
         color: '#010101',
       }}
-    ></div>
+    >
+      <Feedback />
+    </div>
   );
 };
